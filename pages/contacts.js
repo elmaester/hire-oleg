@@ -10,7 +10,6 @@ const Contacts = ({ lang }) => {
       <PageTitle lang={lang}>{ru ? "Напишите мне" : "Contact Me"}</PageTitle>
       <Form lang={lang} />
       <p>{ru ? `Телефон` : `Phone`} +38 068 43 88 769</p>
-      <p>Email: olegmorket@gmail.com</p>
       <p>LinkedIn: https://www.linkedin.com/in/elmaester/</p>
       <p>GitHub: https://github.com/elmaester</p>
       <p>Telegram: https://t.me/elmaester</p>

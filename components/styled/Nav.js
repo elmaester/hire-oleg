@@ -27,14 +27,6 @@ const Nav = styled.nav`
       font-weight: 600;
     }
   }
-  .eng {
-    color: ${props => (props.lang === "en" ? colors.yellow : "white")};
-    font-weight: ${props => (props.lang === "en" ? "600" : "normal")};
-  }
-  .rus {
-    color: ${props => (props.lang === "ru" ? colors.yellow : "white")};
-    font-weight: ${props => (props.lang === "ru" ? "600" : "normal")};
-  }
 `;
 
 export default Nav;
