@@ -74,7 +74,7 @@ const Navigation = ({ lang, toggleLang }) => {
           </Link>
         </li>
         <li>
-          <a onClick={toggleLang} id="toggle-lang">
+          <a onClick={toggleLang}>
             <span className="eng">ENG</span>/<span className="rus">RUS</span>
           </a>
         </li>

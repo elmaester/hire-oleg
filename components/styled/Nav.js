@@ -22,12 +22,9 @@ const Nav = styled.nav`
     &:hover {
       color: ${colors.yellow};
     }
-    &#toggle-lang:hover {
-      color: white;
-    }
     &.active-page-link {
-      color: ${colors.yellow} !important;
-      font-weight: 600 !important;
+      color: ${colors.yellow};
+      font-weight: 600;
     }
   }
   .eng {
