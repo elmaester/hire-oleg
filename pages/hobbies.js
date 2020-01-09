@@ -36,7 +36,7 @@ const Hobbies = ({ lang }) => {
               src="https://www.youtube.com/embed/nDeIAO0LtdA"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
               style={{
                 position: "absolute",
                 top: "0",
