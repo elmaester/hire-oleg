@@ -83,7 +83,11 @@ const Form = ({ lang }) => {
           value={inputs.message}
           rows={6}
         />
-        <button type="submit" disabled={status.submitting}>
+        <button
+          type="submit"
+          disabled={status.submitting}
+          style={{ fontFamily: "inherit" }}
+        >
           {!status.submitting
             ? !status.submitted
               ? ru
