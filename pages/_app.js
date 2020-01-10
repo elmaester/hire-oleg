@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navigation from "../components/Navigation";
 import Head from "next/head";
 import { Reset } from "styled-reset";
@@ -16,7 +16,27 @@ const GlobalStyle = createGlobalStyle`
 
 const MyApp = ({ Component, pageProps }) => {
   const [lang, setLang] = useState("en");
-  const toggleLang = () => (lang === "en" ? setLang("ru") : setLang("en"));
+  useEffect(() => {
+    const lsLang = localStorage.getItem("lang");
+    if (lsLang && lsLang !== lang) {
+      setLang(lsLang);
+      return;
+    }
+    const browserLang = navigator.language.split("-")[0];
+    if (browserLang === "ru" || browserLang === "uk") {
+      setLang("ru");
+    } else setLang("en");
+  }, []);
+  const toggleLang = () => {
+    if (lang === "en") {
+      setLang("ru");
+      localStorage.setItem("lang", "ru");
+    } else {
+      setLang("en");
+      localStorage.setItem("lang", "en");
+    }
+  };
+
   return (
     <Wrapper>
       <GlobalStyle />

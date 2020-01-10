@@ -101,12 +101,6 @@ const Form = ({ lang }) => {
             : "Sending..."}
         </button>
       </form>
-      {status.info.error && (
-        <div className="error">Error: {status.info.msg}</div>
-      )}
-      {!status.info.error && status.info.msg && (
-        <div className="success">{status.info.msg}</div>
-      )}
     </ContactForm>
   );
 };
