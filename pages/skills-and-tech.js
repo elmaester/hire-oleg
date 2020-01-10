@@ -39,8 +39,8 @@ const SkillsAndTech = ({ lang }) => {
         <summary>JavaScript ES6+</summary>
         <p>
           {ru
-            ? `Я близко знаком с синтаксисом и некоторыми особенностями JS, и с тем, что происходит у него "под капотом". Я использую ES6 и соответствующие решения в работе, мой код выглядит свежо и современно. Я могу решить большинство задач среднего уровня. Я упражняюсь на LeetCode и подобных сайтах. Я знаю встроенные структуры данных и их методы. Мне нравится функциональный стиль программирования больше, чем ООП, хотя я не против ближе познакомиться и с последним. Ниже приведён список пройденных тем.`
-            : "I'm well familiar with the syntax and some of JS' quirks, the way it works under the hood. I use the ES6 way of doing things, my code looks fresh and modern. I can solve most intermediate problems. I practice on LeetCode and similar sites. I know the built-in data structures and their methods. I like functional programming style more than OOP, though I don't mind learning more about the latter too. See list of topics covered below."}
+            ? `Я близко знаком с синтаксисом и некоторыми особенностями JS, и с тем, что происходит у него "под капотом". Я использую ES6 и соответствующие решения в работе, мой код выглядит свежо и современно. Я могу решить большинство задач среднего уровня. Я упражняюсь на LeetCode и подобных сайтах. Я знаю встроенные структуры данных и их методы. Мне нравится функциональный стиль программирования больше, чем ООП, хотя я не против ближе познакомиться и с последним.`
+            : "I'm well familiar with the syntax and some of JS' quirks, the way it works under the hood. I use the ES6 way of doing things, my code looks fresh and modern. I can solve most intermediate problems. I practice on LeetCode and similar sites. I know the built-in data structures and their methods. I like functional programming style more than OOP, though I don't mind learning more about the latter too."}
         </p>
       </details>
       <details>
