@@ -18,11 +18,11 @@ const MyApp = ({ Component, pageProps }) => {
   const [lang, setLang] = useState("en");
   useEffect(() => {
     const lsLang = localStorage.getItem("lang");
-    if (lsLang && lsLang !== lang) {
+    if (lsLang) {
       setLang(lsLang);
       return;
     }
-    const browserLang = navigator.language.split("-")[0];
+    const [browserLang] = navigator.language.split("-");
     if (browserLang === "ru" || browserLang === "uk") {
       setLang("ru");
     }
