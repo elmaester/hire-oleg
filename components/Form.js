@@ -63,7 +63,11 @@ const Form = ({ lang }) => {
   return (
     <ContactForm>
       <form onSubmit={handleOnSubmit}>
-        <label htmlFor="email">{ru ? "Ваш " : "Your "}Email</label>
+        <label htmlFor="email">
+          {ru
+            ? "Ваш Email (чтобы я мог Вам ответить)"
+            : "Your Email (so that I can reply to you)"}
+        </label>
         <input
           id="email"
           type="email"

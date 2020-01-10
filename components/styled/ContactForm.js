@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import colors from "../../colors";
 
 const ContactForm = styled.section`
   margin-bottom: 2rem;
@@ -16,17 +17,19 @@ const ContactForm = styled.section`
   }
   button {
     display: block;
-    border: 1px solid #ccc;
-    border-radius: 10%;
-    padding: 0.2rem 0.6rem;
+    background-color: ${colors.darkBlue};
+    border-radius: 8%;
+    padding: 0.5rem 1rem;
     margin: auto;
     transition: 0.25s ease;
     font-size: 1.2rem;
     cursor: pointer;
+    color: white;
+    border: none;
+    text-shadow: 1px 1px 1px ${colors.darkGray};
   }
   button:hover {
-    background-color: #2d3748;
-    color: #fff;
+    background-color: ${colors.lightBlue};
   }
 `;
 
