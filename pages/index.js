@@ -28,7 +28,11 @@ const Home = ({ lang }) => {
         {ru
           ? `Этот сайт служит дополнением к моему `
           : `The purpose of this site is to serve as extension to my `}
-        <a href="/Oleg Klim - React Developer.pdf">
+        <a
+          href="Oleg Klim - React Developer.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {ru ? "резюме" : "resume"}
         </a>
         {ru
