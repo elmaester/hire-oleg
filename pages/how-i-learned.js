@@ -73,6 +73,7 @@ const HowILearned = ({ lang }) => {
         >
           Andrei Neagoie
         </a>
+        .
       </p>
       <p>
         {ru

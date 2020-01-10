@@ -6,6 +6,7 @@ const Nav = styled.nav`
   border-bottom: 2px solid ${colors.darkBlue};
   position: sticky;
   top: 0;
+  font-family: "Exo 2", sans-serif;
 
   ul {
     display: flex;

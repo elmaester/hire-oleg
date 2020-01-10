@@ -19,7 +19,7 @@ const MyApp = ({ Component, pageProps }) => {
       <Head>
         <title>Oleg's Looking for a Job</title>
         <link
-          href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab&display=swap"
+          href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab|Exo+2&display=swap"
           rel="stylesheet"
         />
       </Head>
