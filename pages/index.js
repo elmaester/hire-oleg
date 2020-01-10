@@ -1,14 +1,17 @@
 import React from "react";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
+import Highlight from "../components/styled/Highlight";
+import SubHeading from "../components/styled/SubHeading";
 
 const Home = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
-      <PageTitle lang={lang}>
-        {ru ? "Предложите мне работу" : "Hire me"}
-      </PageTitle>
+      <PageTitle lang="en">Junior Front-End Web Developer</PageTitle>
+      <SubHeading lang={lang}>
+        {ru ? "ищет работу" : "looking for a job"}
+      </SubHeading>
       <img
         src="/images/avatar-photo.jpg"
         alt="Oleg Klim"
@@ -44,6 +47,18 @@ const Home = ({ lang }) => {
           ? `Пожалуйста, воспользуйтесь панелью навигации чтобы ознакомиться с любыми темами, которые Вас заинтересуют. Надеюсь, таким образом Вы найдёте повод, чтобы мы с Вами поговорили, и я жду этого с нетерпением!
 `
           : `Please use the navbar to navigate, and explore any topics you find of interest. I hope you can find reasons for us to talk, and I look forward to it!`}
+      </p>
+      <SubHeading lang="ru">
+        {ru ? "Можно на английском языке" : "Russian Language Available"}
+      </SubHeading>
+      <p>
+        {ru
+          ? `This website is bilingual, you can switch to `
+          : `Это двуязычный сайт, Вы можете переключиться на `}
+        <Highlight>{ru ? "English" : "русский язык"}</Highlight>
+        {ru
+          ? ` in the top right corner of the screen, if you like.`
+          : ` в правом верхнем углу экрана, если хотите.`}
       </p>
       <div style={{ clear: "both" }} />
     </PageMain>

@@ -1,20 +1,25 @@
 import React, { useState } from "react";
 import Navigation from "../components/Navigation";
 import Head from "next/head";
-import colors from "../colors";
 import { Reset } from "styled-reset";
 import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 const Wrapper = styled.div`
-  background-color: ${colors.lightGray};
   min-height: 100vh;
 `;
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-size: 21px;
+  }`;
 
 const MyApp = ({ Component, pageProps }) => {
   const [lang, setLang] = useState("en");
   const toggleLang = () => (lang === "en" ? setLang("ru") : setLang("en"));
   return (
     <Wrapper>
+      <GlobalStyle />
       <Reset />
       <Head>
         <title>Oleg's Looking for a Job</title>
@@ -28,7 +33,7 @@ const MyApp = ({ Component, pageProps }) => {
         />
         <meta name="author" content="Oleg Klim" />
         <link
-          href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab|Exo+2&display=swap"
+          href="https://fonts.googleapis.com/css?family=Roboto+Slab|Exo+2&display=swap"
           rel="stylesheet"
         />
       </Head>

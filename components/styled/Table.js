@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Table = styled.table`
-  margin: 0 auto;
+  margin: 1rem 0;
   td {
     padding: 1rem;
     line-height: 0.3rem;

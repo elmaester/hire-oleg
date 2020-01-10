@@ -14,11 +14,6 @@ const Navigation = ({ lang, toggleLang }) => {
           </Link>
         </li>
         <li>
-          <Link href={`/basic-info`}>
-            <a>{ru ? "Факты" : "Basics"}</a>
-          </Link>
-        </li>
-        <li>
           <Link href={`/skills-and-tech`}>
             <a>{ru ? "Навыки" : "Skills"}</a>
           </Link>

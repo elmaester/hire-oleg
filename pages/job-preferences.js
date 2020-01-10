@@ -7,7 +7,9 @@ const JobPreferences = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
-      <PageTitle>{ru ? "Пожелания к работе" : "Job preferences"}</PageTitle>
+      <PageTitle lang={lang}>
+        {ru ? "Пожелания к работе" : "Job preferences"}
+      </PageTitle>
       <p>
         {ru
           ? "Название интересующей меня должности - "
