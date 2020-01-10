@@ -8,7 +8,6 @@ const PageTitle = styled.h1`
   text-transform: ${props => (props.lang === "ru" ? "none" : "capitalize")};
   margin: 1rem 0 3rem;
   color: ${colors.darkGray};
-  opacity: 0.84;
 `;
 
 export default PageTitle;
