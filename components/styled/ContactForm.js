@@ -9,6 +9,10 @@ const ContactForm = styled.section`
     border: 1px solid #ccc;
     width: 100%;
     margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+    line-height: 1.4;
+    font-family: "Exo 2", monospace;
+    padding: 0 0.8rem;
   }
   label {
     margin-left: 1rem;
