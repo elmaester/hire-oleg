@@ -25,8 +25,9 @@ const MyApp = ({ Component, pageProps }) => {
     const browserLang = navigator.language.split("-")[0];
     if (browserLang === "ru" || browserLang === "uk") {
       setLang("ru");
-    } else setLang("en");
+    }
   }, []);
+
   const toggleLang = () => {
     if (lang === "en") {
       setLang("ru");
