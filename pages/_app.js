@@ -18,6 +18,15 @@ const MyApp = ({ Component, pageProps }) => {
       <Reset />
       <Head>
         <title>Oleg's Looking for a Job</title>
+        <meta
+          name="description"
+          content="Oleg the front-end web developer made this site to find a job."
+        />
+        <meta
+          name="keywords"
+          content="front end, junior, web developer, hire Oleg, Ukraine, fluent English"
+        />
+        <meta name="author" content="Oleg Klim" />
         <link
           href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab|Exo+2&display=swap"
           rel="stylesheet"
