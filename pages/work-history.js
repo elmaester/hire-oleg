@@ -44,15 +44,16 @@ const WorkHistory = ({ lang }) => {
       </ul>
       <p>
         {ru
-          ? "А вот отзывы, которые я получил на UpWork. Мой средний балл был 5.0."
-          : "And here is the feedback I got on UpWork. My average rating was 5.0."}
+          ? "А вот некоторые отзывы, полученные мной на UpWork. Мой средний балл был 5.0."
+          : "And here is some of the feedback I got on UpWork. My average rating was 5.0."}
       </p>
       <img
         src="/images/upwork-feedback.png"
         alt={ru ? "Отзывы на UpWork" : "UpWork Feedback"}
         style={{
           margin: "0 auto",
-          display: "block"
+          display: "block",
+          maxWidth: "100%"
         }}
       />
       <SubHeading lang={lang}>
@@ -90,10 +91,24 @@ const WorkHistory = ({ lang }) => {
             : "Ensured students had the time of their lives, and also learned some English while they were at it"}
         </li>
       </ul>
+      <img
+        src="/images/teaching-in-china.jpg"
+        alt={
+          ru
+            ? "Был учителем английского языка в Китае"
+            : "Taught English in China"
+        }
+        style={{
+          margin: "0 auto",
+          display: "block",
+          maxWidth: "100%",
+          marginTop: "1rem"
+        }}
+      />
       <p>
         {ru
-          ? "Теперь пришло время воплотить мечту детства и стать разработчиком программного обеспечения профессионально. Быть может, в Вашей компании? ;)"
-          : "Now the time has come to fulfill my childhood dream and become a software developer professionally. Perhaps at your company? ;)"}
+          ? "Теперь пришло время воплотить мечту детства и стать профессиональным разработчиком. Быть может, в Вашей компании? ;)"
+          : "Now the time has come to fulfill my childhood dream and become a developer professionally. Perhaps at your company? ;)"}
       </p>
     </PageMain>
   );

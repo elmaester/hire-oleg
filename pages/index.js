@@ -26,8 +26,14 @@ const Home = ({ lang }) => {
       </p>
       <p>
         {ru
-          ? `Этот сайт служит дополнением к моему резюме, предоставляет информацию потенциальным работодателям, и в то же время демонстрирует мои навыки веб-разработки. Я сделал его потому, что в данный момент ищу работу. Я считаю он может сэкономить нам немного времени на предварительном звонке, и даже на собеседовании.`
-          : `The purpose of this site is to serve as extension to my resume, provide information to potential employers, while also demonstrating my web development skills. I made it because I am looking for a job at the moment. I believe it can save us some time on screening calls and even the actual interview.`}
+          ? `Этот сайт служит дополнением к моему `
+          : `The purpose of this site is to serve as extension to my `}
+        <a href="/Oleg Klim - React Developer.pdf">
+          {ru ? "резюме" : "resume"}
+        </a>
+        {ru
+          ? `, предоставляет информацию потенциальным работодателям, и в то же время демонстрирует мои навыки веб-разработки. Я сделал его потому, что в данный момент ищу работу. Я считаю он может сэкономить нам немного времени на предварительном звонке, и даже на собеседовании.`
+          : `, provide information to potential employers, while also demonstrating my web development skills. I made it because I am looking for a job at the moment. I believe it can save us some time on screening calls and even the actual interview.`}
       </p>
       <p>
         {ru

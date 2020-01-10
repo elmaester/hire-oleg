@@ -1,6 +1,7 @@
 import React from "react";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
+import Highlight from "../components/styled/Highlight";
 
 const Philosophy = ({ lang }) => {
   let ru = lang === "ru";
@@ -20,9 +21,11 @@ const Philosophy = ({ lang }) => {
           : `Early on, in my teenage years, the writings of Carlos Castaneda were influential on me. The "way of the warrior" appealed to me aesthetically. I liked the idea of being efficient and resilient, capable of getting things done and persevering. The teaching also included a lot of mystical elements, which were fun to explore for a while, they made my teenage years interesting. Lucid dreaming in particular was exciting.`}
       </p>
       <p>
+        {ru ? `Позже я открыл для себя ` : `Later I discovered `}
+        <Highlight>{ru ? "стоицизм" : "stoicism"}</Highlight>
         {ru
-          ? `Позже я открыл для себя стоицизм как более чистый вариант той же идеи, с меньшим числом примесей. Учение стоицизма затрагивает темы ясного восприятия, правильного действия, и сильной воли для выполнения действия вопреки затруднениям. Важно отличать, что находится в твоей сфере контроля, а что вне её. Второе нужно принять. А на первое нужно воздействовать, чётко и сосредоточенно. Трудности, неизбежно встречающиеся на нашем пути, нужно признавать, но не зацикливаться на них, и не использовать как позволение сдаться. Сдаваться никогда не следует.`
-          : `Later I discovered Stoicism to be a purer version of the same idea. Stoicism is about clear perception, right action, and the will to carry the action through despite the obstacles. It's important to distinguish things within your control from things outside of it. The latter need to be accepted. The former need to be acted on, with clarity and focus. The hardships we all inevitably encounter are to be experienced, but not dwelt on, or used as excuses for giving up. Never give up.`}
+          ? ` как более чистый вариант той же идеи, с меньшим числом примесей. Учение стоицизма затрагивает темы ясного восприятия, правильного действия, и сильной воли для выполнения действия вопреки затруднениям. Важно отличать, что находится в твоей сфере контроля, а что вне её. Второе нужно принять. А на первое нужно воздействовать, чётко и сосредоточенно. Трудности, неизбежно встречающиеся на нашем пути, нужно признавать, но не зацикливаться на них, и не использовать как позволение сдаться. Сдаваться никогда не следует.`
+          : ` to be a purer version of the same idea. Stoicism is about clear perception, right action, and the will to carry the action through despite the obstacles. It's important to distinguish things within your control from things outside of it. The latter need to be accepted. The former need to be acted on, with clarity and focus. The hardships we all inevitably encounter are to be experienced, but not dwelt on, or used as excuses for giving up. Never give up.`}
       </p>
       <p>
         {ru
