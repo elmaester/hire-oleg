@@ -8,7 +8,7 @@ const SubHeading = styled.h2`
   font-family: "Roboto Slab", serif;
   text-transform: ${props => (props.lang === "ru" ? "none" : "capitalize")};
   color: ${colors.darkGray};
-  margin: 2.8vw 0;
+  margin: 2.4vw 0;
 
   @media ${sizes.phone} {
     font-size: ${36 * multiplier}px;

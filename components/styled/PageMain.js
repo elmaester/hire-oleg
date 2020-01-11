@@ -17,7 +17,7 @@ const PageMain = styled.main`
   }
   @media ${sizes.desktopWide} {
     width: 45vw;
-    padding: 5vw 0;
+    padding: 4vw 0;
   }
   font-size: 18px;
   line-height: 1.58;
@@ -37,7 +37,7 @@ const PageMain = styled.main`
   p,
   ul,
   ol {
-    margin: 2.2vw 0;
+    margin: 1.4vw 0;
   }
   summary {
     outline: none;
