@@ -1,10 +1,17 @@
 import styled from "styled-components";
+import { sizes } from "../../variables";
 
 const Table = styled.table`
-  margin: 1rem 0;
+  margin: 1.3em 0;
+  font-size: 15px;
+  @media ${sizes.tablet} {
+    font-size: 18px;
+  }
+  @media ${sizes.tabletLandscape} {
+    font-size: 21px;
+  }
   td {
-    padding: 1rem;
-    line-height: 0.3rem;
+    padding: 0.7em;
   }
   tr.light-gray {
     background-color: #eee;
