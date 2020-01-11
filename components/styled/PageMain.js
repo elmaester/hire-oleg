@@ -1,11 +1,28 @@
 import styled from "styled-components";
-import colors from "../../colors";
+import { colors, sizes } from "../../variables";
 
 const PageMain = styled.main`
+  box-sizing: border-box;
+  @media ${sizes.phone} {
+    width: 100vw;
+    padding: 5vw;
+  }
+  @media ${sizes.tablet} {
+    width: 80vw;
+    padding: 6vw 0;
+    font-size: 21px;
+  }
+  @media ${sizes.desktop} {
+    width: 60vw;
+  }
+  @media ${sizes.desktopWide} {
+    width: 45vw;
+    padding: 5vw 0;
+  }
+  font-size: 18px;
+  line-height: 1.58;
   background-color: white;
-  width: 45vw;
   margin: auto;
-  padding: 2rem;
   font-family: "Exo 2", sans-serif;
   color: ${colors.darkGray};
   a {
@@ -13,28 +30,29 @@ const PageMain = styled.main`
     text-decoration: none;
     border-bottom: 3px solid ${colors.lightBlue};
     transition: 0.25s ease;
-    line-height: 1.58;
     &:hover {
       border-bottom: 5px solid ${colors.darkBlue};
     }
   }
-  p {
-    line-height: 1.58;
-    margin: 2.2rem 0;
+  p,
+  ul,
+  ol {
+    margin: 2.2vw 0;
   }
   summary {
     outline: none;
     cursor: pointer;
-    font-size: 1.3rem;
-    line-height: 1.58;
+    font-size: 21px;
     &:hover {
       color: ${colors.darkBlue};
+    }
+    @media ${sizes.tablet} {
+      font-size: 24px;
     }
   }
   ul {
     list-style-image: url("/images/muscle.png");
     list-style-position: inside;
-    margin: 2.2rem 0;
     li {
       line-height: 1.3;
     }
@@ -45,10 +63,9 @@ const PageMain = styled.main`
   ol {
     list-style: decimal;
     list-style-position: inside;
-    margin: 0.8rem 0;
     li {
       line-height: 1.3;
-      margin-bottom: 0.3rem;
+      margin-bottom: 1vw;
     }
   }
 `;

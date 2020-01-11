@@ -10,7 +10,7 @@ const Hobbies = ({ lang }) => {
         {ru ? "Чем я занимаюсь кроме кодинга" : "What I do besides coding"}
       </PageTitle>
       <ol>
-        <li style={{ marginBottom: "2rem" }}>
+        <li style={{ marginBottom: "2em" }}>
           <strong>
             {ru ? "Физические тренировки. " : "Fitness and working out. "}
           </strong>
@@ -18,7 +18,7 @@ const Hobbies = ({ lang }) => {
             ? "Я считаю очень важным поддерживать физическую активность и быть в хорошей форме. Я регулярно выполняю тренировки, использующие только вес собственного тела, и предпочитаю их тренировкам с использованием железа в спортзале. Я также практикую здоровое питание. Я не пью алкоголь и не курю."
             : "I consider it really important to stay physically active and in good shape. I regularly do bodyweight workouts, which I prefer to external weight lifting at the gym. I also eat healthy food. I don't drink alcohol or smoke."}
         </li>
-        <li style={{ marginBottom: "2rem" }}>
+        <li style={{ marginBottom: "3.5em" }}>
           <strong>
             {ru ? "Пение и музыка. " : "Singing and playing music. "}
           </strong>

@@ -8,8 +8,10 @@ const Home = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
-      <PageTitle lang="en">Junior Front-End Web Developer</PageTitle>
-      <SubHeading lang={lang}>
+      <PageTitle lang="en" style={{ marginBottom: "0" }}>
+        Junior Front-End Web Developer
+      </PageTitle>
+      <SubHeading lang={lang} style={{ marginTop: "0" }}>
         {ru ? "ищет работу" : "looking for a job"}
       </SubHeading>
       <img

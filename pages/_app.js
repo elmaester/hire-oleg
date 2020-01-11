@@ -4,15 +4,11 @@ import Head from "next/head";
 import { Reset } from "styled-reset";
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
+import { sizes } from "../variables";
 
 const Wrapper = styled.div`
   min-height: 100vh;
 `;
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    font-size: 21px;
-  }`;
 
 const MyApp = ({ Component, pageProps }) => {
   const [lang, setLang] = useState("en");
@@ -40,7 +36,6 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <Wrapper>
-      <GlobalStyle />
       <Reset />
       <Head>
         <title>Oleg's Looking for a Job</title>
