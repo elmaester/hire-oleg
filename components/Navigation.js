@@ -83,7 +83,7 @@ const Navigation = ({ lang, toggleLang }) => {
   let [menuExpanded, setMenuExpanded] = useState(false);
   const expandMenu = () => setMenuExpanded(!menuExpanded);
   return (
-    <Nav lang={lang} menuExpanded={menuExpanded} expandMenu={expandMenu}>
+    <Nav lang={lang} menuExpanded={menuExpanded}>
       <ul>
         <NavLink href={`/`}>
           <a onClick={() => setMenuExpanded(false)}>
