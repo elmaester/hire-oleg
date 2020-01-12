@@ -6,7 +6,7 @@ const Highlight = styled.strong`
   border-radius: 45%;
   font-weight: 900;
   padding: 0.5vw 0.5vw;
-  display: inline-block;
+  white-space: nowrap;
 `;
 
 export default Highlight;

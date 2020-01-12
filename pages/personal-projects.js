@@ -139,7 +139,7 @@ const PersonalProjects = ({ lang }) => {
               href="https://www.styled-components.com/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ display: "inline-block" }}
+              style={{ whiteSpace: "nowrap" }}
             >
               Styled Components
             </a>
