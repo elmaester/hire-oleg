@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ContactForm from "./styled/ContactForm";
-import Button from "./styled/Button";
 
 const Form = ({ lang }) => {
   let ru = lang === "ru";
@@ -84,7 +83,7 @@ const Form = ({ lang }) => {
           value={inputs.message}
           rows={6}
         />
-        <Button
+        <button
           type="submit"
           disabled={status.submitting}
           style={{
@@ -104,7 +103,7 @@ const Form = ({ lang }) => {
             : ru
             ? "Отправляю..."
             : "Sending..."}
-        </Button>
+        </button>
       </form>
     </ContactForm>
   );
