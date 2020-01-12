@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ContactForm from "./styled/ContactForm";
+import Button from "./styled/Button";
 
 const Form = ({ lang }) => {
   let ru = lang === "ru";
@@ -83,10 +84,14 @@ const Form = ({ lang }) => {
           value={inputs.message}
           rows={6}
         />
-        <button
+        <Button
           type="submit"
           disabled={status.submitting}
-          style={{ fontFamily: "inherit" }}
+          style={{
+            fontFamily: "inherit",
+            display: "block",
+            margin: "1vw auto"
+          }}
         >
           {!status.submitting
             ? !status.submitted
@@ -99,7 +104,7 @@ const Form = ({ lang }) => {
             : ru
             ? "Отправляю..."
             : "Sending..."}
-        </button>
+        </Button>
       </form>
     </ContactForm>
   );

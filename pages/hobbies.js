@@ -1,6 +1,7 @@
 import React from "react";
 import PageTitle from "../components/styled/PageTitle";
 import PageMain from "../components/styled/PageMain";
+import { colors } from "../variables";
 
 const Hobbies = ({ lang }) => {
   let ru = lang === "ru";
@@ -18,7 +19,7 @@ const Hobbies = ({ lang }) => {
             ? "Я считаю очень важным поддерживать физическую активность и быть в хорошей форме. Я регулярно выполняю тренировки, использующие только вес собственного тела, и предпочитаю их тренировкам с использованием железа в спортзале. Я также практикую здоровое питание. Я не пью алкоголь и не курю."
             : "I consider it really important to stay physically active and in good shape. I regularly do bodyweight workouts, which I prefer to external weight lifting at the gym. I also eat healthy food. I don't drink alcohol or smoke."}
         </li>
-        <li style={{ marginBottom: "3.5em" }}>
+        <li style={{ marginBottom: "2em" }}>
           <strong>
             {ru ? "Пение и музыка. " : "Singing and playing music. "}
           </strong>
@@ -29,7 +30,9 @@ const Hobbies = ({ lang }) => {
             style={{
               position: "relative",
               paddingBottom: "56.25%",
-              height: "0"
+              height: "0",
+              backgroundColor: `${colors.darkGray}`,
+              marginTop: "0.7rem"
             }}
           >
             <iframe
@@ -43,8 +46,8 @@ const Hobbies = ({ lang }) => {
                 left: "0",
                 width: "100%",
                 height: "100%",
-                margin: "1rem auto",
-                display: "block"
+                display: "block",
+                zIndex: "1"
               }}
             ></iframe>
           </div>

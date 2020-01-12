@@ -11,6 +11,7 @@ const Nav = styled.nav`
   position: sticky;
   top: 0;
   font-family: "Exo 2", sans-serif;
+  z-index: 2;
 
   ul {
     display: flex;
