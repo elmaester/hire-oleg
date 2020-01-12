@@ -72,8 +72,11 @@ const PersonalProjects = ({ lang }) => {
             >
               Tachyons
             </a>
-            , Elm Architecture, responsive, static typing, functional
-            programming, pure functions, transposition
+            , Elm Architecture, responsive,{" "}
+            <span style={{ whiteSpace: "nowrap" }}>static typing</span>,{" "}
+            <span style={{ whiteSpace: "nowrap" }}>functional programming</span>
+            , <span style={{ whiteSpace: "nowrap" }}>pure functions</span>,
+            transposition
           </p>
           <h4>{ru ? "Непростые задачи:" : "Challenges:"}</h4>
           <ul>
@@ -132,9 +135,14 @@ const PersonalProjects = ({ lang }) => {
           </div>
           <h4>{ru ? "Технологии и фичи:" : "Techs & Features:"}</h4>
           <p>
-            JavaScript, JSX, CSS, React, functional components, React Router,
-            React Hooks, Context API, Redux, Redux Persist, Thunks, Redux Saga,
-            Firebase, Heroku, Stripe, HOC - higher order components,{" "}
+            JavaScript, JSX, CSS, React,{" "}
+            <span style={{ whiteSpace: "nowrap" }}>functional components</span>,
+            React Router, React Hooks, Context API, Redux, Redux Persist,
+            Thunks, Redux Saga, Firebase, Heroku, Stripe,{" "}
+            <span style={{ whiteSpace: "nowrap" }}>
+              HOC - higher order components
+            </span>
+            ,{" "}
             <a
               href="https://www.styled-components.com/"
               target="_blank"
@@ -143,7 +151,11 @@ const PersonalProjects = ({ lang }) => {
             >
               Styled Components
             </a>
-            , API, JSON, forms, email and Google authentication, cart dropdown
+            , API, JSON, forms,{" "}
+            <span style={{ whiteSpace: "nowrap" }}>
+              email and Google authentication
+            </span>
+            , cart dropdown
           </p>
           <h4>{ru ? "Непростые задачи:" : "Challenges:"}</h4>
           <ul>
