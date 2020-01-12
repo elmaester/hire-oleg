@@ -6,6 +6,7 @@ import Telegram from "../public/images/app-icons/telegram.svg";
 import Skype from "../public/images/app-icons/skype.svg";
 import LinkedIn from "../public/images/app-icons/linkedin.svg";
 import GitHub from "../public/images/app-icons/github.svg";
+import Resume from "../public/images/app-icons/resume.svg";
 import SocialIcons from "../components/styled/SocialIcons";
 
 const Contacts = ({ lang }) => {
@@ -30,6 +31,14 @@ const Contacts = ({ lang }) => {
           alt="elmaester"
         >
           <LinkedIn />
+        </a>
+        <a
+          href="Oleg Klim - React Developer.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          alt="Job Resume"
+        >
+          <Resume />
         </a>
         <a
           href="https://t.me/elmaester"
