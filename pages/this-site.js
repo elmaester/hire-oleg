@@ -39,7 +39,7 @@ const ThisSite = ({ lang }) => {
           {ru ? "эту статью" : "this article"}
         </a>
         {ru
-          ? ", но мне не понравились предложенные там решения. Прочтение динамического параметра из адресной строки выполнялось с большой задержкой, которая была видна в виде вспышки контента на языке по умолчанию при загрузке каждой страницы. Послушав свой инстинкт React-разработчика, я пошёл другим путём и реализовал переключение языка через state в самом верхнем компоненте. Я предпочёл, чтобы URL был чистым и не содержал код языка. Это плохо для SEO, но в моём частном юзкейсе SEO не является приоритетом, поскольку я на него не буду полагаться для доставки нужным адресатам."
+          ? ", но мне не понравились предложенные там решения. Прочтение динамического параметра из адресной строки выполнялось с большой задержкой, которая была видна в виде вспышки контента на языке по умолчанию при загрузке каждой страницы. Послушав свой инстинкт React-разработчика, я пошёл другим путём и реализовал переключение языка через state в самом верхнем компоненте. Я предпочёл, чтобы URL был чистым и не содержал код языка. Это плохо для SEO, но в моём частном юзкейсе SEO не является приоритетом, поскольку я на него не буду полагаться для доставки сайта нужным адресатам."
           : ", but I didn't like either of the offered solutions. Reading a dynamic URL parameter was slow and resulted in a long flash of content in the default language on every page load. Instead I followed my React developer instinct and implemented language switching as state in the top level component. I preferred the URL to be clean and not contain the language code. That's bad for SEO, but in my particular use case SEO is not a priority, since I won't rely on it for the site to be discovered."}
       </p>
       <p>
@@ -141,7 +141,7 @@ const ThisSite = ({ lang }) => {
           styled-components
         </a>
         {ru
-          ? ", и очень доволен! Весь знакомый/нужный мне SCSS функционал работает сразу из коробки, scope ограничивается разрабатываемым компонентом, что позволяет избежать каких-либо накладок. И не нужно вообще придумывать названия классам, чем я крайне не люблю заниматься, потому что это субъективное занятие, не регулируемое ничем кроме договорённостей, что не надёжно. Так что styled-components - моя любимка. За что из не любить?"
+          ? ", и очень доволен! Весь знакомый/нужный мне SCSS функционал работает сразу из коробки, scope ограничивается разрабатываемым компонентом, что позволяет избежать каких-либо накладок. И не нужно вообще придумывать названия классам, чем я крайне не люблю заниматься, потому что это субъективное занятие, не регулируемое ничем кроме договорённостей, что не надёжно. Так что styled-components - моя любимка. За что их не любить?"
           : ", and I am really happy! All the SCSS features I know/need are supported out of the box, the scope stays local to the component, avoiding any collisions. And it's not necessary to come up with any classnames at all, which I really hate doing because it's arbitrary and not enforced by anything but convention, which is weak. So styled-components is my fave. What's not to love?"}
       </p>
       <SubHeading lang={lang}>
