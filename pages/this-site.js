@@ -213,8 +213,8 @@ const ThisSite = ({ lang }) => {
       </p>
       <p>
         {ru
-          ? "Интересной задачей была панель навигации. Я реализовал её responsiveness при помощи переменной в state, в зависимости от которой нужные элементы скрываются или показываются, и меняется flex-direction. Не знаю как эта задача решается обычно, но мне моё решение понравилось, я думаю оно прикольное, и доволен результатом."
-          : "The interesting challenge was the navbar. I implemented its responsiveness with a variable in the state, depending on which some elements are revealed or hidden, and the flex-direction changes. I don't know how it's usually done, but I like my solution, I think it's cool and am happy with the result."}
+          ? "Интересной задачей была панель навигации. Я реализовал её responsiveness при помощи булевой переменной в state, в зависимости от которой нужные элементы скрываются или показываются, и меняется flex-direction. Не знаю как эта задача решается обычно, но мне моё решение понравилось, я думаю оно прикольное, и доволен результатом."
+          : "The interesting challenge was the navbar. I implemented its responsiveness with a boolean variable in the state, depending on which some elements are revealed or hidden, and the flex-direction changes. I don't know how it's usually done, but I like my solution, I think it's cool and am happy with the result."}
       </p>
       <SubHeading lang={lang}>
         {ru
