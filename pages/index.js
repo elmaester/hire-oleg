@@ -21,7 +21,7 @@ const Home = ({ lang }) => {
         Junior Front-End Web Developer
       </PageTitle>
       <SubHeading lang={lang} style={{ marginTop: "0" }}>
-        {ru ? "ищет работу" : "looking for a job"}
+        {ru ? "открыт для новых возможностей" : "open to opportunities"}
       </SubHeading>
       <MyPhotoContainer ru={ru}>
         <img src="/images/avatar-photo.jpg" alt="Oleg Klim" />
