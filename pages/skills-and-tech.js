@@ -39,8 +39,8 @@ const SkillsAndTech = ({ lang }) => {
         </summary>
         <p>
           {ru
-            ? "Первым я познакомился с Bootstrap, но как по мне, он принимает слишком много решений и ограничивает возможности. Мне гораздо больше по нраву так называемые атомные или утилитные библиотеки, такие как Tachyons и Tailwind. Как альтернатива, мне также сильно нравится идея CSS в JS, например styled-components в React. BEM мне хорошей идеей не кажется, и вообще вручную давать имена классам."
-            : "I first got familiar with Bootstrap, but it's too opinionated for my liking. I much prefer the so-called atomic, or utility-first libraries, of which Tachyons and Tailwind are representatives. Alternatively, I also really like the idea of CSS in JS, for example styled-components in React. I don't think BEM is a good idea, or manually naming classes in general."}
+            ? "Мне очень нравится CSS в JS, и в частности Styled Components. У меня есть опыт с Bootstrap, а также с так называемыми атомными или утилитными библиотеками, такими как Tachyons и Tailwind. BEM мне хорошей идеей не кажется, и вообще вручную давать имена классам."
+            : "I'm a big fan of CSS in JS, and Styled Components in particular. I have experience with Bootstrap, and also the so-called atomic, or utility-first libraries, of which Tachyons and Tailwind are representatives. I don't think BEM is a good idea, or manually naming classes in general."}
         </p>
       </details>
       <details>
