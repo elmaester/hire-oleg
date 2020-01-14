@@ -9,7 +9,7 @@ const Philosophy = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Oleg's Looking for a Job - What Are His Values</title>
+        <title>Hire Oleg - What Are His Values</title>
         <meta
           name="description"
           content="Learn about Oleg's philosophical inclinations and values."

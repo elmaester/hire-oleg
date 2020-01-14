@@ -9,7 +9,7 @@ const JobPreferences = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Oleg's Looking for a Job - What Kind of Job Does He Want</title>
+        <title>Hire Oleg - What Kind of Job Does He Want</title>
         <meta
           name="description"
           content="Learn About Oleg's Job Preferences."

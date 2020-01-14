@@ -12,7 +12,7 @@ const PersonalProjects = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Oleg's Looking for a Job - His Completed Projects</title>
+        <title>Hire Oleg - His Completed Projects</title>
         <meta
           name="description"
           content="Take a look at some cool things Oleg has made."

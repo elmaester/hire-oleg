@@ -9,7 +9,7 @@ const Hobbies = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Oleg's Looking for a Job - What Are His Hobbies</title>
+        <title>Hire Oleg - What Are His Hobbies</title>
         <meta name="description" content="Learn about Oleg's cool hobbies." />
       </Head>
       <PageTitle lang={lang}>

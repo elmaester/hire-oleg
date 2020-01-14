@@ -15,7 +15,7 @@ const Contacts = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Oleg's Looking for a Job - How to Contact Him</title>
+        <title>Hire Oleg - How to Contact Him</title>
         <meta
           name="description"
           content="You can contact Oleg through this form, or on other sites and apps listed below."

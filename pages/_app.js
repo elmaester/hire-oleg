@@ -36,10 +36,10 @@ const MyApp = ({ Component, pageProps }) => {
     <Wrapper>
       <Reset />
       <Head>
-        <title>Oleg's Looking for a Job</title>
+        <title>Hire Oleg</title>
         <meta
           name="description"
-          content="Oleg the front-end web developer made this site to find a job."
+          content="Oleg the front-end web developer made this site to let the world know he is available."
         />
         <meta
           name="keywords"

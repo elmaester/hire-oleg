@@ -9,9 +9,7 @@ const HRFAQ = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>
-          Oleg's Looking for a Job - Some Answers to Frequently Asked Questions
-        </title>
+        <title>Hire Oleg - Some Answers to Frequently Asked Questions</title>
         <meta
           name="description"
           content="Try to find the answers you are looking for."

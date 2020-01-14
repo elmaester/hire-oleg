@@ -11,10 +11,10 @@ const Home = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Oleg's Looking for a Job</title>
+        <title>Hire Oleg</title>
         <meta
           name="description"
-          content="Welcome to Oleg's website. Please explore and contact him if interested."
+          content="Oleg is a Junior Front-End developer specializing in React. He is open to new employment opportunities."
         />
       </Head>
       <PageTitle lang="en" style={{ marginBottom: "0" }}>

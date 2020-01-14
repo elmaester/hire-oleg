@@ -9,7 +9,7 @@ const WorkHistory = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Oleg's Looking for a Job - Where Has He Worked Before</title>
+        <title>Hire Oleg - Where Has He Worked Before</title>
         <meta
           name="description"
           content="Learn about Oleg's past and his employment history."

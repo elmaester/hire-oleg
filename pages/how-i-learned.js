@@ -9,9 +9,7 @@ const HowILearned = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>
-          Oleg's Looking for a Job - How He Learned to be a Developer
-        </title>
+        <title>Hire Oleg - How He Learned to be a Developer</title>
         <meta
           name="description"
           content="Learn about Oleg's journey to becoming the developer he is today."
