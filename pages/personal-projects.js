@@ -74,7 +74,7 @@ const PersonalProjects = ({ lang }) => {
             </a>
             ,{" "}
             <a
-              href="http://tachyons.io/"
+              href="https://tachyons.io/"
               target="_blank"
               rel="noopener noreferrer"
             >

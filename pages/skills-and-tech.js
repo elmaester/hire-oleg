@@ -39,8 +39,36 @@ const SkillsAndTech = ({ lang }) => {
         </summary>
         <p>
           {ru
-            ? "Мне очень нравится CSS в JS, и в частности Styled Components. У меня есть опыт с Bootstrap, а также с так называемыми атомными или утилитными библиотеками, такими как Tachyons и Tailwind. BEM мне хорошей идеей не кажется, и вообще вручную давать имена классам."
-            : "I'm a big fan of CSS in JS, and Styled Components in particular. I have experience with Bootstrap, and also the so-called atomic, or utility-first libraries, of which Tachyons and Tailwind are representatives. I don't think BEM is a good idea, or manually naming classes in general."}
+            ? "Мне очень нравится CSS в JS, и в частности "
+            : "I'm a big fan of CSS in JS, and "}
+          <a
+            href="https://www.styled-components.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Styled Components
+          </a>
+          {ru
+            ? ". У меня есть опыт с Bootstrap, а также с так называемыми атомными или утилитными библиотеками, такими как "
+            : " in particular. I have experience with Bootstrap, and also the so-called atomic, or utility-first libraries, of which "}
+          <a
+            href="https://tachyons.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tachyons
+          </a>
+          {ru ? "и" : "and"}
+          <a
+            href="https://tailwindcss.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tailwind
+          </a>
+          {ru
+            ? ". BEM мне хорошей идеей не кажется, как и давать вручную имена классам в принципе."
+            : " are representatives. I don't think BEM is a good idea, or manually naming classes in general."}
         </p>
       </details>
       <details>
