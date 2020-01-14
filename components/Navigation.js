@@ -40,10 +40,10 @@ const Nav = styled.nav`
         pointer-events: none;
         @media ${sizes.desktop} {
           pointer-events: auto;
-          border-left: 5px solid ${colors.darkBlue};
+          /* border-left: 5px solid ${colors.darkBlue};
           border-right: 5px solid ${colors.darkBlue};
           border-radius: 35%;
-          padding: 3px 10px;
+          padding: 3px 10px; */
         }
       }
     }
