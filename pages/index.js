@@ -4,6 +4,7 @@ import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import Highlight from "../components/styled/Highlight";
 import SubHeading from "../components/styled/SubHeading";
+import MyPhotoContainer from "../components/styled/MyPhotoContainer";
 
 const Home = ({ lang }) => {
   let ru = lang === "ru";
@@ -22,11 +23,9 @@ const Home = ({ lang }) => {
       <SubHeading lang={lang} style={{ marginTop: "0" }}>
         {ru ? "ищет работу" : "looking for a job"}
       </SubHeading>
-      <img
-        src="/images/avatar-photo.jpg"
-        alt="Oleg Klim"
-        style={{ width: "40%", float: "left", marginRight: "0.5rem" }}
-      />
+      <MyPhotoContainer ru={ru}>
+        <img src="/images/avatar-photo.jpg" alt="Oleg Klim" />
+      </MyPhotoContainer>
       <p>
         {ru
           ? `Здравствуйте, и спасибо, что заглянули!`
