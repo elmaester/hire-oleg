@@ -49,8 +49,8 @@ const SkillsAndTech = ({ lang }) => {
             Styled Components
           </a>
           {ru
-            ? ". У меня есть опыт с Bootstrap, а также с так называемыми атомными или утилитными библиотеками, такими как "
-            : " in particular. I have experience with Bootstrap, and also the so-called atomic, or utility-first libraries, of which "}
+            ? ". У меня есть опыт с Bootstrap, а также с более утилитными библиотеками - "
+            : " in particular. I have experience with Bootstrap, and also the utility-first libraries, e.g. "}
           <a
             href="https://tachyons.io/"
             target="_blank"
@@ -58,7 +58,7 @@ const SkillsAndTech = ({ lang }) => {
           >
             Tachyons
           </a>
-          {ru ? "и" : "and"}
+          {ru ? " и " : " and "}
           <a
             href="https://tailwindcss.com/"
             target="_blank"
@@ -66,9 +66,7 @@ const SkillsAndTech = ({ lang }) => {
           >
             Tailwind
           </a>
-          {ru
-            ? ". BEM мне хорошей идеей не кажется, как и давать вручную имена классам в принципе."
-            : " are representatives. I don't think BEM is a good idea, or manually naming classes in general."}
+          .
         </p>
       </details>
       <details>
