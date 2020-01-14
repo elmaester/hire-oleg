@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import Highlight from "../components/styled/Highlight";
@@ -8,6 +9,13 @@ const Home = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job</title>
+        <meta
+          name="description"
+          content="Welcome to Oleg's website. Please explore and contact him if interested."
+        />
+      </Head>
       <PageTitle lang="en" style={{ marginBottom: "0" }}>
         Junior Front-End Web Developer
       </PageTitle>

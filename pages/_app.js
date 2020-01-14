@@ -3,8 +3,6 @@ import Navigation from "../components/Navigation";
 import Head from "next/head";
 import { Reset } from "styled-reset";
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
-import { sizes } from "../variables";
 
 const Wrapper = styled.div`
   min-height: 100vh;

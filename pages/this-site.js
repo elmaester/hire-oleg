@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import SubHeading from "../components/styled/SubHeading";
@@ -7,6 +8,13 @@ const ThisSite = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - How He Made This Site</title>
+        <meta
+          name="description"
+          content="Learn about the process, the decision making, and the lessons learned while making this site."
+        />
+      </Head>
       <PageTitle lang={lang}>
         {ru ? "Как был сделан этот сайт" : "How This Site Was Made"}
       </PageTitle>

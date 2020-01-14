@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Form from "../components/Form";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
@@ -13,6 +14,13 @@ const Contacts = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - How to Contact Him</title>
+        <meta
+          name="description"
+          content="You can contact Oleg through this form, or on other sites and apps listed below."
+        />
+      </Head>
       <PageTitle lang={lang}>{ru ? "Напишите мне" : "Contact Me"}</PageTitle>
       <Form lang={lang} />
       <SocialIcons>

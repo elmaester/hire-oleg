@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import Highlight from "../components/styled/Highlight";
@@ -7,6 +8,13 @@ const Philosophy = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - What Are His Values</title>
+        <meta
+          name="description"
+          content="Learn about Oleg's philosophical inclinations and values."
+        />
+      </Head>
       <PageTitle lang={lang}>
         {ru ? "Моя философия и ценности" : "My personal philosophy and values"}
       </PageTitle>

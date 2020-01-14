@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import Highlight from "../components/styled/Highlight";
@@ -7,6 +8,13 @@ const JobPreferences = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - What Kind of Job Does He Want</title>
+        <meta
+          name="description"
+          content="Learn About Oleg's Job Preferences."
+        />
+      </Head>
       <PageTitle lang={lang}>
         {ru ? "Пожелания к работе" : "Job preferences"}
       </PageTitle>

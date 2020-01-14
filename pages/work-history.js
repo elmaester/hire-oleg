@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import SubHeading from "../components/styled/SubHeading";
@@ -7,6 +8,13 @@ const WorkHistory = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - Where Has He Worked Before</title>
+        <meta
+          name="description"
+          content="Learn about Oleg's past and his employment history."
+        />
+      </Head>
       <PageTitle lang={lang}>
         {ru
           ? "Чем я занимался до этого времени"

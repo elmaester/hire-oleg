@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageTitle from "../components/styled/PageTitle";
 import PageMain from "../components/styled/PageMain";
 import { colors } from "../variables";
@@ -7,6 +8,10 @@ const Hobbies = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - What Are His Hobbies</title>
+        <meta name="description" content="Learn about Oleg's cool hobbies." />
+      </Head>
       <PageTitle lang={lang}>
         {ru ? "Чем я занимаюсь кроме кодинга" : "What I do besides coding"}
       </PageTitle>

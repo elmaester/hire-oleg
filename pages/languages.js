@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageTitle from "../components/styled/PageTitle";
 import PageMain from "../components/styled/PageMain";
 import SubHeading from "../components/styled/SubHeading";
@@ -7,6 +8,13 @@ const Languages = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - Which Languages Can He Speak</title>
+        <meta
+          name="description"
+          content="Learn which languages Oleg can use at work."
+        />
+      </Head>
       <PageTitle lang={lang}>
         {ru ? "Как дела с языками" : "What about spoken languages"}
       </PageTitle>

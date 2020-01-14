@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import Table from "../components/styled/Table";
@@ -7,6 +8,15 @@ const HRFAQ = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>
+          Oleg's Looking for a Job - Some Answers to Frequently Asked Questions
+        </title>
+        <meta
+          name="description"
+          content="Try to find the answers you are looking for."
+        />
+      </Head>
       <PageTitle lang={lang}>
         {ru ? "Вопросы, интересующие HR" : "Questions HR people ask"}
       </PageTitle>

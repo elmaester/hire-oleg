@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 
@@ -6,6 +7,13 @@ const SkillsAndTech = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - Which Tools Can He Use</title>
+        <meta
+          name="description"
+          content="Learn about Oleg's skills and favorite technologies."
+        />
+      </Head>
       <PageTitle lang={lang}>
         {ru ? "Навыки и любимые технологии" : "Skills and tech choices"}
       </PageTitle>

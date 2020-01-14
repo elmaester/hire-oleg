@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import SubHeading from "../components/styled/SubHeading";
@@ -7,6 +8,15 @@ const HowILearned = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>
+          Oleg's Looking for a Job - How He Learned to be a Developer
+        </title>
+        <meta
+          name="description"
+          content="Learn about Oleg's journey to becoming the developer he is today."
+        />
+      </Head>
       <PageTitle lang={lang}>{ru ? "Как я учился" : "How I learned"}</PageTitle>
       <p>
         {ru

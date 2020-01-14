@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import SubHeading from "../components/styled/SubHeading";
@@ -10,6 +11,13 @@ const PersonalProjects = ({ lang }) => {
   let ru = lang === "ru";
   return (
     <PageMain>
+      <Head>
+        <title>Oleg's Looking for a Job - His Completed Projects</title>
+        <meta
+          name="description"
+          content="Take a look at some cool things Oleg has made."
+        />
+      </Head>
       <PageTitle lang={lang}>
         {ru ? "Мои проекты" : "Personal projects"}
       </PageTitle>
