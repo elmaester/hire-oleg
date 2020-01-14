@@ -14,7 +14,7 @@ const Home = ({ lang }) => {
         <title>Hire Oleg</title>
         <meta
           name="description"
-          content="Oleg is a Junior Front-End developer specializing in React. He is open to new employment opportunities."
+          content="Oleg is a Junior Front-End Developer specializing in React. He is open to new employment opportunities."
         />
       </Head>
       <PageTitle lang="en" style={{ marginBottom: "0" }}>
