@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import Head from "next/head";
 import { Reset } from "styled-reset";
 import styled from "styled-components";
+import Inquisitor from "../components/Inquisitor";
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -52,7 +53,9 @@ const MyApp = ({ Component, pageProps }) => {
         />
       </Head>
       <Navigation lang={lang} toggleLang={toggleLang} />
-      <Component lang={lang} {...pageProps} />
+      <Inquisitor>
+        <Component lang={lang} {...pageProps} />
+      </Inquisitor>
     </Wrapper>
   );
 };
