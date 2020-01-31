@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import Table from "../components/styled/Table";
+import { useBottomScrollListener } from "react-bottom-scroll-listener";
+import Router from "next/router";
 
 const HRFAQ = ({ lang }) => {
+  useEffect(() => window.scrollTo(0, 0), []);
+  useBottomScrollListener(() => Router.push("/work-history"));
   let ru = lang === "ru";
   return (
     <PageMain>

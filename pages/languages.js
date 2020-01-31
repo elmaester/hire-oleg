@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import PageTitle from "../components/styled/PageTitle";
 import PageMain from "../components/styled/PageMain";
 import SubHeading from "../components/styled/SubHeading";
+import { useBottomScrollListener } from "react-bottom-scroll-listener";
+import Router from "next/router";
 
 const Languages = ({ lang }) => {
+  useEffect(() => window.scrollTo(0, 0), []);
+  useBottomScrollListener(() => Router.push("/philosophy"));
   let ru = lang === "ru";
   return (
     <PageMain>

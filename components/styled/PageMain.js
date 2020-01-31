@@ -5,11 +5,11 @@ const PageMain = styled.main`
   box-sizing: border-box;
   @media ${sizes.phone} {
     width: 100vw;
-    padding: 5vw;
+    padding: 5vw 5vw 90vh 5vw;
   }
   @media ${sizes.tablet} {
     width: 80vw;
-    padding: 6vw 0;
+    padding: 6vw 0 70vh 0;
     font-size: 21px;
   }
   @media ${sizes.desktop} {
@@ -17,7 +17,7 @@ const PageMain = styled.main`
   }
   @media ${sizes.desktopWide} {
     width: 45vw;
-    padding: 4vw 0;
+    padding: 4vw 0 80vh 0;
   }
   font-size: 18px;
   line-height: 1.58;

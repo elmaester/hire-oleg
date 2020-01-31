@@ -5,8 +5,11 @@ import PageTitle from "../components/styled/PageTitle";
 import Highlight from "../components/styled/Highlight";
 import SubHeading from "../components/styled/SubHeading";
 import MyPhotoContainer from "../components/styled/MyPhotoContainer";
+import { useBottomScrollListener } from "react-bottom-scroll-listener";
+import Router from "next/router";
 
 const Home = ({ lang }) => {
+  useBottomScrollListener(() => Router.push("/skills-and-tech"));
   let ru = lang === "ru";
   return (
     <PageMain>

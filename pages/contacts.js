@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import Form from "../components/Form";
 import PageMain from "../components/styled/PageMain";
@@ -11,9 +11,10 @@ import Resume from "../public/images/app-icons/resume.svg";
 import SocialIcons from "../components/styled/SocialIcons";
 
 const Contacts = ({ lang }) => {
+  useEffect(() => window.scrollTo(0, 0), []);
   let ru = lang === "ru";
   return (
-    <PageMain>
+    <PageMain style={{ paddingBottom: "20px" }}>
       <Head>
         <title>Hire Oleg - How to Contact Him</title>
         <meta
