@@ -60,10 +60,8 @@ const MyApp = ({ Component, pageProps }) => {
         <meta property="og:image:width" content="475" /> */}
         <meta
           property="og:image"
-          content="https://hire-oleg.now.sh/images/avatar-photo.jpg"
+          content="https://hire-oleg.now.sh/images/og-thumbnail.jpg"
         />
-        <meta property="og:image:height" content="200" />
-        <meta property="og:image:width" content="200" />
         <meta property="og:image:type" content="image/jpeg" />
       </Head>
       <Navigation lang={lang} toggleLang={toggleLang} />
