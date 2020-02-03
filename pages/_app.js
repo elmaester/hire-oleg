@@ -53,12 +53,12 @@ const MyApp = ({ Component, pageProps }) => {
         />
         <meta
           property="og:image"
-          content="https://hire-oleg.now.sh/images/avatar-photo.jpg"
+          content="https://hire-oleg.now.sh/images/hong-kong-og.jpg"
         />
         <meta property="og:type" content="website" />
         <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:height" content="250" />
-        <meta property="og:image:width" content="250" />
+        {/* <meta property="og:image:height" content="250" />
+        <meta property="og:image:width" content="250" /> */}
       </Head>
       <Navigation lang={lang} toggleLang={toggleLang} />
       <Inquisitor>
