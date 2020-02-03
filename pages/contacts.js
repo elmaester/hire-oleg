@@ -26,6 +26,7 @@ const Contacts = ({ lang }) => {
           property="og:description"
           content="You can contact Oleg through this form, or on other sites and apps listed below."
         />
+        <meta property="og:url" content="https://hire-oleg.now.sh/contacts" />
       </Head>
       <PageTitle lang={lang}>{ru ? "Напишите мне" : "Contact Me"}</PageTitle>
       <Form lang={lang} />

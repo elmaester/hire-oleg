@@ -23,6 +23,10 @@ const WorkHistory = ({ lang }) => {
           property="og:description"
           content="Learn about Oleg's past and his employment history."
         />
+        <meta
+          property="og:url"
+          content="https://hire-oleg.now.sh/work-history"
+        />
       </Head>
       <PageTitle lang={lang}>
         {ru

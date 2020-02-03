@@ -20,6 +20,7 @@ const Hobbies = ({ lang }) => {
           property="og:description"
           content="Learn about Oleg's cool hobbies."
         />
+        <meta property="og:url" content="https://hire-oleg.now.sh/hobbies" />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Чем я занимаюсь кроме кодинга" : "What I do besides coding"}

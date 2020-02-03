@@ -26,6 +26,10 @@ const PersonalProjects = ({ lang }) => {
           property="og:description"
           content="Take a look at some cool things Oleg has made."
         />
+        <meta
+          property="og:url"
+          content="https://hire-oleg.now.sh/personal-projects"
+        />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Мои проекты" : "Personal projects"}

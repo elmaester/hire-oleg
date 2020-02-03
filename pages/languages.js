@@ -23,6 +23,7 @@ const Languages = ({ lang }) => {
           property="og:description"
           content="Find out which languages Oleg can use at work."
         />
+        <meta property="og:url" content="https://hire-oleg.now.sh/languages" />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Как дела с языками" : "What about spoken languages"}

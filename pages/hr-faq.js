@@ -26,6 +26,7 @@ const HRFAQ = ({ lang }) => {
           property="og:description"
           content="Try to find the answers you are looking for."
         />
+        <meta property="og:url" content="https://hire-oleg.now.sh/hr-faq" />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Вопросы, интересующие HR" : "Questions HR people ask"}

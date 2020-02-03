@@ -23,6 +23,7 @@ const Philosophy = ({ lang }) => {
           property="og:description"
           content="Learn about Oleg's philosophical inclinations and values."
         />
+        <meta property="og:url" content="https://hire-oleg.now.sh/philosophy" />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Моя философия и ценности" : "My personal philosophy and values"}

@@ -23,6 +23,10 @@ const HowILearned = ({ lang }) => {
           property="og:description"
           content="Learn about Oleg's journey to becoming the developer he is today."
         />
+        <meta
+          property="og:url"
+          content="https://hire-oleg.now.sh/how-i-learned"
+        />
       </Head>
       <PageTitle lang={lang}>{ru ? "Как я учился" : "How I learned"}</PageTitle>
       <p>

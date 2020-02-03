@@ -22,6 +22,10 @@ const SkillsAndTech = ({ lang }) => {
           property="og:description"
           content="Learn about Oleg's skills and favorite technologies."
         />
+        <meta
+          property="og:url"
+          content="https://hire-oleg.now.sh/skills-and-tech"
+        />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Навыки и любимые технологии" : "Skills and tech choices"}

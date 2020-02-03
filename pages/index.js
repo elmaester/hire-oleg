@@ -24,6 +24,7 @@ const Home = ({ lang }) => {
           property="og:description"
           content="Oleg is a Junior Front-End Developer specializing in React. He is open to new employment opportunities."
         />
+        <meta property="og:url" content="https://hire-oleg.now.sh" />
       </Head>
       <PageTitle lang="en" style={{ marginBottom: "0" }}>
         Junior Front-End Web Developer

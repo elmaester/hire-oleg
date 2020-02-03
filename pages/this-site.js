@@ -23,6 +23,7 @@ const ThisSite = ({ lang }) => {
           property="og:description"
           content="Learn about the process, the decision making, and the lessons learned while making this site."
         />
+        <meta property="og:url" content="https://hire-oleg.now.sh/this-site" />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Как был сделан этот сайт" : "How This Site Was Made"}

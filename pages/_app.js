@@ -57,8 +57,8 @@ const MyApp = ({ Component, pageProps }) => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:image:type" content="image/jpeg" />
-        {/* <meta property="og:image:height" content="250" />
-        <meta property="og:image:width" content="250" /> */}
+        <meta property="og:image:height" content="250" />
+        <meta property="og:image:width" content="475" />
       </Head>
       <Navigation lang={lang} toggleLang={toggleLang} />
       <Inquisitor>

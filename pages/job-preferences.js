@@ -23,6 +23,10 @@ const JobPreferences = ({ lang }) => {
           property="og:description"
           content="Learn About Oleg's Job Preferences."
         />
+        <meta
+          property="og:url"
+          content="https://hire-oleg.now.sh/job-preferences"
+        />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Пожелания к работе" : "Job preferences"}
