@@ -57,6 +57,7 @@ const MyApp = ({ Component, pageProps }) => {
           content="https://hire-oleg.now.sh/images/hong-kong-og.jpg"
         />
         <meta property="og:image:type" content="image/jpeg" />
+        <meta property="twitter:card" content="summary_large_image" />
       </Head>
       <Navigation lang={lang} toggleLang={toggleLang} />
       <Inquisitor>
