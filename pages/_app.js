@@ -51,14 +51,20 @@ const MyApp = ({ Component, pageProps }) => {
           href="https://fonts.googleapis.com/css?family=Roboto+Slab|Exo+2&display=swap"
           rel="stylesheet"
         />
-        <meta
+        <meta property="og:type" content="website" />
+        {/* <meta
           property="og:image"
           content="https://hire-oleg.now.sh/images/hong-kong-og.jpg"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:height" content="250" />
-        <meta property="og:image:width" content="475" />
+        <meta property="og:image:width" content="475" /> */}
+        <meta
+          property="og:image"
+          content="https://hire-oleg.now.sh/images/avatar-photo.jpg"
+        />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:type" content="image/jpeg" />
       </Head>
       <Navigation lang={lang} toggleLang={toggleLang} />
       <Inquisitor>
