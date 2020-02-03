@@ -12,7 +12,7 @@ const SkillsAndTech = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Hire Oleg - Which Tools Can He Use</title>
+        <title>Which Tools Can He Use - Hire Oleg</title>
         <meta
           name="description"
           content="Learn about Oleg's skills and favorite technologies."

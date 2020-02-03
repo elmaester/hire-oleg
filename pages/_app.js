@@ -51,6 +51,13 @@ const MyApp = ({ Component, pageProps }) => {
           href="https://fonts.googleapis.com/css?family=Roboto+Slab|Exo+2&display=swap"
           rel="stylesheet"
         />
+        <meta
+          property="og:image"
+          content="https://hire-oleg.now.sh/images/avatar-photo.jpg"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:height" content="250" />
+        <meta property="og:image:width" content="250" />
       </Head>
       <Navigation lang={lang} toggleLang={toggleLang} />
       <Inquisitor>

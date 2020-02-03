@@ -13,7 +13,7 @@ const ThisSite = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Hire Oleg - How He Made This Site</title>
+        <title>How He Made This Site - Hire Oleg</title>
         <meta
           name="description"
           content="Learn about the process, the decision making, and the lessons learned while making this site."

@@ -16,7 +16,7 @@ const PersonalProjects = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Hire Oleg - His Completed Projects</title>
+        <title>His Completed Projects - Hire Oleg</title>
         <meta
           name="description"
           content="Take a look at some cool things Oleg has made."

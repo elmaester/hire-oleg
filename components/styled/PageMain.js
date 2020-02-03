@@ -17,7 +17,7 @@ const PageMain = styled.main`
   }
   @media ${sizes.desktopWide} {
     width: 45vw;
-    padding: 4vw 0 80vh 0;
+    padding: 4vw 0 75vh 0;
   }
   font-size: 18px;
   line-height: 1.58;

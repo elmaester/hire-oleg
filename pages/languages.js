@@ -13,7 +13,7 @@ const Languages = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Hire Oleg - Which Languages Can He Speak</title>
+        <title>Which Languages Can He Speak - Hire Oleg</title>
         <meta
           name="description"
           content="Learn which languages Oleg can use at work."

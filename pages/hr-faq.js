@@ -13,7 +13,7 @@ const HRFAQ = ({ lang }) => {
   return (
     <PageMain>
       <Head>
-        <title>Hire Oleg - Some Answers to Frequently Asked Questions</title>
+        <title>Some Answers to Frequently Asked Questions - Hire Oleg</title>
         <meta
           name="description"
           content="Try to find the answers you are looking for."
@@ -195,7 +195,7 @@ const HRFAQ = ({ lang }) => {
             : "As I currently live far away from the likely places of employment, I would prefer not to. Ideally I would prefer for all the necessary interviews to happen remotely, over the internet, in videochat if necessary. I would like to have an offer BEFORE I relocate. However, I understand the desire and the reasoning behind requiring an in-person interview. So I can offer two possibilities. Either the company can pay my travel and lodging expenses to have an interview with me, or when I accumulate multiple interview requests from companies in the same city, I will travel there to have all interviews during one visit. The latter option can understandably take longer."}
         </p>
       </details>
-      <details>
+      {/* <details>
         <summary>
           {ru
             ? "На какую зарплату ты рассчитываешь?"
@@ -206,7 +206,7 @@ const HRFAQ = ({ lang }) => {
             ? "Ответ на этот вопрос зависит от города, в котором нужно работать. В Украине (Киев, Харьков) мне было бы комфортно в диапазоне $800-1000 чистыми (после налога). В случае удалённой работы, меня может устроить меньшая сумма."
             : "The answer to this question is location-dependent. In Ukraine (Kiev, Kharkov) I would be comfortable in the $800-1000 range after tax. To work remotely, a smaller amount would be acceptable. In other countries the numbers would need to be adjusted for the likely higher cost of living."}
         </p>
-      </details>
+      </details> */}
       {ru ? null : (
         <details>
           <summary>Are you eligible to work in X country?</summary>

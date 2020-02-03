@@ -16,7 +16,7 @@ const Contacts = ({ lang }) => {
   return (
     <PageMain style={{ paddingBottom: "20px" }}>
       <Head>
-        <title>Hire Oleg - How to Contact Him</title>
+        <title>How to Contact Him - Hire Oleg</title>
         <meta
           name="description"
           content="You can contact Oleg through this form, or on other sites and apps listed below."
