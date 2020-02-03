@@ -56,8 +56,6 @@ const MyApp = ({ Component, pageProps }) => {
           property="og:image"
           content="https://hire-oleg.now.sh/images/hong-kong-og.jpg"
         />
-        <meta property="og:image:height" content="250" />
-        <meta property="og:image:width" content="475" />
         <meta property="og:image:type" content="image/jpeg" />
       </Head>
       <Navigation lang={lang} toggleLang={toggleLang} />
