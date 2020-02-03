@@ -18,6 +18,14 @@ const HRFAQ = ({ lang }) => {
           name="description"
           content="Try to find the answers you are looking for."
         />
+        <meta
+          property="og:title"
+          content="Some Answers to Frequently Asked Questions - Hire Oleg"
+        />
+        <meta
+          property="og:description"
+          content="Try to find the answers you are looking for."
+        />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Вопросы, интересующие HR" : "Questions HR people ask"}

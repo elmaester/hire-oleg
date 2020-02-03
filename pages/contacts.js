@@ -21,6 +21,11 @@ const Contacts = ({ lang }) => {
           name="description"
           content="You can contact Oleg through this form, or on other sites and apps listed below."
         />
+        <meta property="og:title" content="How to Contact Him - Hire Oleg" />
+        <meta
+          property="og:description"
+          content="You can contact Oleg through this form, or on other sites and apps listed below."
+        />
       </Head>
       <PageTitle lang={lang}>{ru ? "Напишите мне" : "Contact Me"}</PageTitle>
       <Form lang={lang} />

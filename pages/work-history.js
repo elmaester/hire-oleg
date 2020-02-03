@@ -18,6 +18,14 @@ const WorkHistory = ({ lang }) => {
           name="description"
           content="Learn about Oleg's past and his employment history."
         />
+        <meta
+          property="og:title"
+          content="Where Has He Worked Before - Hire Oleg"
+        />
+        <meta
+          property="og:description"
+          content="Learn about Oleg's past and his employment history."
+        />
       </Head>
       <PageTitle lang={lang}>
         {ru

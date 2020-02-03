@@ -16,7 +16,15 @@ const Languages = ({ lang }) => {
         <title>Which Languages Can He Speak - Hire Oleg</title>
         <meta
           name="description"
-          content="Learn which languages Oleg can use at work."
+          content="Find out which languages Oleg can use at work."
+        />
+        <meta
+          property="og:title"
+          content="Which Languages Can He Speak - Hire Oleg"
+        />
+        <meta
+          property="og:description"
+          content="Find out which languages Oleg can use at work."
         />
       </Head>
       <PageTitle lang={lang}>

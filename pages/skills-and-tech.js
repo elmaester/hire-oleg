@@ -17,6 +17,14 @@ const SkillsAndTech = ({ lang }) => {
           name="description"
           content="Learn about Oleg's skills and favorite technologies."
         />
+        <meta
+          property="og:title"
+          content="Which Tools Can He Use - Hire Oleg"
+        />
+        <meta
+          property="og:description"
+          content="Learn about Oleg's skills and favorite technologies."
+        />
       </Head>
       <PageTitle lang={lang}>
         {ru ? "Навыки и любимые технологии" : "Skills and tech choices"}
