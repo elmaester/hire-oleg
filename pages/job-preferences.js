@@ -18,10 +18,7 @@ const JobPreferences = ({ lang }) => {
           name="description"
           content="Learn About Oleg's Job Preferences."
         />
-        <meta
-          property="og:title"
-          content="What Kind of Job Does He Want - Hire Oleg"
-        />
+        <meta property="og:title" content="What Kind of Job Does He Want" />
         <meta
           property="og:description"
           content="Learn About Oleg's Job Preferences."

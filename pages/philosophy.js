@@ -18,7 +18,7 @@ const Philosophy = ({ lang }) => {
           name="description"
           content="Learn about Oleg's philosophical inclinations and values."
         />
-        <meta property="og:title" content="What Are His Values - Hire Oleg" />
+        <meta property="og:title" content="What Are His Values" />
         <meta
           property="og:description"
           content="Learn about Oleg's philosophical inclinations and values."

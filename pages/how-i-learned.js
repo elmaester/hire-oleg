@@ -18,10 +18,7 @@ const HowILearned = ({ lang }) => {
           name="description"
           content="Learn about Oleg's journey to becoming the developer he is today."
         />
-        <meta
-          property="og:title"
-          content="How He Learned to be a Developer - Hire Oleg"
-        />
+        <meta property="og:title" content="How He Learned to be a Developer" />
         <meta
           property="og:description"
           content="Learn about Oleg's journey to becoming the developer he is today."

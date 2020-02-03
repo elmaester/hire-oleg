@@ -20,7 +20,7 @@ const HRFAQ = ({ lang }) => {
         />
         <meta
           property="og:title"
-          content="Some Answers to Frequently Asked Questions - Hire Oleg"
+          content="Some Answers to Frequently Asked Questions"
         />
         <meta
           property="og:description"

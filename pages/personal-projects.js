@@ -21,10 +21,7 @@ const PersonalProjects = ({ lang }) => {
           name="description"
           content="Take a look at some cool things Oleg has made."
         />
-        <meta
-          property="og:title"
-          content="His Completed Projects - Hire Oleg"
-        />
+        <meta property="og:title" content="His Completed Projects" />
         <meta
           property="og:description"
           content="Take a look at some cool things Oleg has made."

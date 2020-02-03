@@ -18,10 +18,7 @@ const Languages = ({ lang }) => {
           name="description"
           content="Find out which languages Oleg can use at work."
         />
-        <meta
-          property="og:title"
-          content="Which Languages Can He Speak - Hire Oleg"
-        />
+        <meta property="og:title" content="Which Languages Can He Speak" />
         <meta
           property="og:description"
           content="Find out which languages Oleg can use at work."

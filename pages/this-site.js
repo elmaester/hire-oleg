@@ -18,7 +18,7 @@ const ThisSite = ({ lang }) => {
           name="description"
           content="Learn about the process, the decision making, and the lessons learned while making this site."
         />
-        <meta property="og:title" content="How He Made This Site - Hire Oleg" />
+        <meta property="og:title" content="How He Made This Site" />
         <meta
           property="og:description"
           content="Learn about the process, the decision making, and the lessons learned while making this site."

@@ -15,7 +15,7 @@ const Hobbies = ({ lang }) => {
       <Head>
         <title>What Are His Hobbies - Hire Oleg</title>
         <meta name="description" content="Learn about Oleg's cool hobbies." />
-        <meta property="og:title" content="What Are His Hobbies - Hire Oleg" />
+        <meta property="og:title" content="What Are His Hobbies" />
         <meta
           property="og:description"
           content="Learn about Oleg's cool hobbies."
