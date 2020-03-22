@@ -1,14 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Head from "next/head";
 import PageTitle from "../components/styled/PageTitle";
 import PageMain from "../components/styled/PageMain";
 import { colors } from "../variables";
-import { useBottomScrollListener } from "react-bottom-scroll-listener";
-import Router from "next/router";
 
 const Hobbies = ({ lang }) => {
-  useEffect(() => window.scrollTo(0, 0), []);
-  useBottomScrollListener(() => Router.push("/this-site"));
   let ru = lang === "ru";
   return (
     <PageMain>

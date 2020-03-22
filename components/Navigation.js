@@ -110,11 +110,6 @@ const Navigation = ({ lang, toggleLang }) => {
             {ru ? "Проекты" : "Projects"}
           </a>
         </NavLink>
-        <NavLink href={`/job-preferences`}>
-          <a onClick={() => setMenuExpanded(false)}>
-            {ru ? "Предпочтения" : "Preferences"}
-          </a>
-        </NavLink>
         <NavLink href={`/hr-faq`}>
           <a onClick={() => setMenuExpanded(false)}>
             {ru ? "Вопросы" : "HR FAQ"}

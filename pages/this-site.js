@@ -1,14 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Head from "next/head";
 import PageMain from "../components/styled/PageMain";
 import PageTitle from "../components/styled/PageTitle";
 import SubHeading from "../components/styled/SubHeading";
-import { useBottomScrollListener } from "react-bottom-scroll-listener";
-import Router from "next/router";
 
 const ThisSite = ({ lang }) => {
-  useEffect(() => window.scrollTo(0, 0), []);
-  useBottomScrollListener(() => Router.push("/contacts"));
   let ru = lang === "ru";
   return (
     <PageMain>
